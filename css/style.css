@@ -3,3 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.navbar {
+  width: 100%;
+  background-image: url('https://img3.wallspic.com/previews/9/3/0/4/6/164039/164039-banner_de_contraccion_de_la_galaxia-contraccion_nerviosa-banner_web-streaming_de_medios_de_comunicacion-gamer-500x.jpg');
+}
+
+.logo {
+  width: 100px;
+}
