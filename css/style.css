@@ -5,5 +5,24 @@
 }
 
 .footer {
- 
+  background-color: black;
+  border: 3px solid #8a2be2;
+  padding: 40px;
+  font-size: 14px;
+
+  .footer-enlaces {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: #8a2be2;
+    }
+  }
+
+  .footer-img {
+    width: 80px;
+    height: auto;
+    filter: drop-shadow(0 0 30px #8a2be2);
+  }
 }
