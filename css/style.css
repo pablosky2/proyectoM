@@ -1,13 +1,20 @@
-*{
+* {
+  padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
-.navbar{
+.navbar {
   width: 100%;
-  background-image: url(https://img3.wallspic.com/previews/9/3/0/4/6/164039/164039-banner_de_contraccion_de_la_galaxia-contraccion_nerviosa-banner_web-streaming_de_medios_de_comunicacion-gamer-500x.jpg);
+  background-image: url('https://img3.wallspic.com/previews/9/3/0/4/6/164039/164039-banner_de_contraccion_de_la_galaxia-contraccion_nerviosa-banner_web-streaming_de_medios_de_comunicacion-gamer-500x.jpg');
 }
 
-.container-fluid a{
-color: white;
+/* Si decides mantener las reglas de 'Feature/contacto': */
+.container-fluid a {
+  color: white;
 }
 
+/* Si decides mantener las reglas de 'dev': */
+.logo {
+  width: 100px;
+}
