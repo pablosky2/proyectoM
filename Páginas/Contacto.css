@@ -65,3 +65,7 @@
 .button:hover:after {
   opacity: 1;
 }
+
+.contacto img{
+  width: 100px;
+}
