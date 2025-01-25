@@ -5,62 +5,131 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="Contacto.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>Contacto Gamer</title>
+  <style>
+   body {
+      font-family: 'Press Start 2P', cursive;
+      background: linear-gradient(to bottom, #1a1a2e, #16213e);
+      color: #fff;
+    }
+
+    h2, h5 {
+      color: #00ffff;
+      text-shadow: 0px 0px 10px #00ffff;
+    }
+
+    .button {
+      background-color: #ff0080;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+    }
+
+    .button:hover {
+      background-color: #00ffff;
+      color: #000;
+      text-shadow: none;
+    }
+
+    .contacto-section {
+      background: url('https://img.freepik.com/vector-premium/ilustracion-vectorial-fondo-abstracta-elegante-bg-gradiente-bg_784842-4620.jpg') no-repeat center center/cover;
+    }
+
+    form {
+      border: 2px solid #00ffff;
+      box-shadow: 0 0 15px #00ffff;
+    }
+
+    .contacto a img {
+      width: 40px;
+      transition: transform 0.3s ease;
+    }
+
+    .contacto a:hover img {
+      transform: scale(1.2);
+    }
+
+    .social-icons {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .social-icons img {
+      width: 40px;
+      cursor: pointer;
+    }
+
+    .social-icons img:hover {
+      transform: scale(1.2);
+      filter: drop-shadow(0px 0px 10px #fff);
+    }
+
+    hr {
+      border-top: 2px dashed #00ffff;
+    }
+  </style>
 </head>
 <body>
   <section id="contacto" class="contacto-section bg-dark text-white py-5">
-  <div class="container text-center">
-    <h2 class="mb-4">¡Conéctate con nosotros!</h2>
-    <p class="mb-5">¿Tienes preguntas, sugerencias o quieres unirte a nuestra comunidad gamer? ¡Estamos aquí para ayudarte!</p>
-    <div class="row justify-content-center">
-      <!-- Formulario de contacto -->
-      <div class="col-md-6">
-        <form action="#" method="POST" class="bg-secondary p-4 rounded">
-          <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre de Usuario" required maxlength="20" minlength="8" pattern="[A-Za-z1-0]">
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Correo electrónico</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="Por eje rodo18@gmail.com" required maxlength="20" minlength="8" pattern="[A-Za-z1-0]">
-          </div>
-          <div class="mb-3">
-            <label for="mensaje" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..." required maxlength="500" minlength="8" pattern="[A-Za-z1-0]"></textarea>
-          </div>
-          <button type="submit" class="button">
-           <span>Enviar mensaje</span> </button>
-        </form>
+    <div class="container text-center">
+      <h2 class="mb-4">¡Conéctate con nosotros!</h2>
+      <p class="mb-5">¿Tienes preguntas, sugerencias o quieres unirte a nuestra comunidad gamer? ¡Estamos aquí para ayudarte!</p>
+      <div class="row justify-content-center">
+        <!-- Formulario de contacto -->
+        <div class="col-md-6">
+          <form action="#" method="POST" class="bg-secondary p-4 rounded">
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Tu nombre de Usuario" required maxlength="20" minlength="8" pattern="[A-Za-z1-0]">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" name="email" placeholder="Por eje rodo18@gmail.com" required maxlength="20" minlength="8" pattern="[A-Za-z1-0]">
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje..." required maxlength="500" minlength="8" pattern="[A-Za-z1-0]"></textarea>
+            </div>
+            <button type="submit" class="button">
+              <span>Enviar mensaje</span>
+            </button>
+          </form>
+        </div>
+      </div>
+      <hr class="my-5 text-secondary">
+      <!-- Información de contacto adicional -->
+      <div class="row">
+        <div class="col-md-4">
+          <h5><i class="bi bi-envelope"></i> Email</h5>
+          <p>soporte@gamingworld.com</p>
+        </div>
+        <div class="col-md-4">
+          <h5><i class="bi bi-phone"></i> Teléfono</h5>
+          <p>+54 11 1234 5678</p>
+        </div>
+        <div class="col-md-4">
+          <h5><i class="bi bi-geo-alt"></i> Ubicación</h5>
+          <p>Tucumán, Argentina</p>
+        </div>
+      </div>
+      <!-- Enlaces a redes sociales -->
+      <div class="mt-5">
+        <h5>Síguenos en:</h5>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/" target="_blank"><img src="https://guiacomercialpuertocabello.com/wp-content/uploads/2022/10/Instagram-blanco.png" alt="Instagram"></a>
+          <a href="https://www.facebook.com/" target="_blank"><img src="https://cdn.iconscout.com/icon/free/png-256/free-logo-facebook-2019-1644393-1395069.png" alt="Facebook"></a>
+          <a href="https://www.twitter.com/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/X_logo_2023_%28white%29.png/800px-X_logo_2023_%28white%29.png" alt="Twitter"></a>
+        </div>
       </div>
     </div>
-    <hr class="my-5 text-secondary">
-    <!-- Información de contacto adicional -->
-    <div class="row">
-      <div class="col-md-4">
-        <h5><i class="bi bi-envelope"></i> Email</h5>
-        <p>soporte@gamingworld.com</p>
-      </div>
-      <div class="col-md-4">
-        <h5><i class="bi bi-phone"></i> Teléfono</h5>
-        <p>+54 11 1234 5678</p>
-      </div>
-      <div class="col-md-4">
-        <h5><i class="bi bi-geo-alt"></i> Ubicación</h5>
-        <p>Tucumán, Argentina</p>
-      </div>
-    </div>
-    <!-- Enlaces a redes sociales -->
-    <div class="mt-5">
-      <h5>Síguenos en:</h5>
-      <div class="d-flex justify-content-center gap-3">
-        <a href="https://www.instagram.com/?locale=es_LA" target="_blank" class="text-white fs-4"><img src="https://guiacomercialpuertocabello.com/wp-content/uploads/2022/10/Instagram-blanco.png" alt=""></a>
-        <a href="#" class="text-white fs-4"><img src="" alt=""></i></a>
-        <a href="#" class="text-white fs-4"><img src="" alt=""></a>
-        <a href="#" class="text-white fs-4"><img src="" alt=""></a>
-      </div>
-    </div>
-  </div>
-</section>
+  </section>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
