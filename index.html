@@ -1,25 +1,79 @@
 <!DOCTYPE html>
-<html lang="es_AR">
+<html lang="es-AR">
   <head>
     <meta name="author" content="" />
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <title>Poner título</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      body {
+        background-color: #0f0f0f;
+        color: white;
+        font-family: "Press Start 2P", cursive;
+      }
+
+      .navbar {
+        background: linear-gradient(90deg, #1a1a1a, #222, #1a1a1a);
+        box-shadow: 0 4px 8px rgba(0, 255, 255, 0.2);
+      }
+      .nav-link {
+        color: #00ffff !important;
+        transition: all 0.3s ease-in-out;
+      }
+      .nav-link:hover {
+        text-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff;
+        color: #ffffff !important;
+      }
+      .logo {
+        height: 60px;
+        filter: drop-shadow(0 0 6px #00ffff);
+      }
+      .navbar-toggler-icon {
+        background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%2300ffff" viewBox="0 0 16 16"%3E%3Cpath fill-rule="evenodd" d="M1.5 12a.5.5 0 010-1h13a.5.5 0 010 1h-13zm0-5a.5.5 0 010-1h13a.5.5 0 010 1h-13zm0-5a.5.5 0 010-1h13a.5.5 0 010 1h-13z"/%3E%3C/svg%3E');
+      }
+      .btn-gamer {
+        background: linear-gradient(90deg, #00ffff, #1a1a1a);
+        border: none;
+        padding: 8px 16px;
+        color: white;
+        border-radius: 8px;
+        transition: all 0.3s ease-in-out;
+        text-transform: uppercase;
+      }
+      .btn-gamer:hover {
+        background: #00ffff;
+        color: black;
+        transform: scale(1.1);
+        box-shadow: 0 0 10px #00ffff;
+      }
+    </style>
+    <title>Página principal</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a href="index.html">
+          <img
+            class="logo"
+            src="https://graphicsfamily.com/wp-content/uploads/edd/2021/02/Gamers-Mascot-Logo-PNG-Transparent.png"
+            alt="Logo"
+          />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,45 +88,20 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Sobre nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link" href="Páginas/Contacto.html">Contacto</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Iniciar Sesión</a>
+            </li>
+            <li class="nav-item">
+              <button class="btn-gamer">Registrarse</button>
+            </li>
+          </ul>
         </div>
       </div>
     </nav>
