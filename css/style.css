@@ -23,9 +23,9 @@
   border: 2px solid #8a2be2;
   padding: 15px;
 
-  .row {
+  .row-footer {
     .img-footer {
-      width: 90px;
+      width: 60px;
       filter: drop-shadow(0 0 10px #8a2be2);
       margin-top: 15px;
     }
@@ -38,7 +38,6 @@
       color: white;
       text-decoration: none;
       transition: color 0.5s ease;
-
       &:hover {
         color: #8a2be2;
       }
@@ -77,5 +76,11 @@
   .img-footer {
     position: relative;
     right: 10%;
+  }
+  #col-1 {
+    a {
+      position: relative;
+      right: 1rem;
+    }
   }
 }
