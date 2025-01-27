@@ -1,18 +1,26 @@
 *{
     margin: 0 auto;
     box-sizing: border-box;
+    
     }
 .carousel-item{
     width: 100%;
     height: auto; 
     object-fit: cover; 
   }
-
-  @media (max-width: 767px) {
+  body{
+    background-image: url(./assets/bg-4.jpeg);
     
+  }
+  @media (max-width: 600px) {
     .h2-divbox{
-        font-size: 30px;
-        text-align: center;
+        font-size: 20px;
+        margin-left: 15%;
+        color: white;
+        text-shadow: 1px 1px 28px rgba(0,0,0,0.6);
+        margin-top: 5%;
+        font-family:"Press Start 2P", serif; ;
+        
     }
     .div-box-two{
         display: flex;
@@ -20,14 +28,23 @@
     }
     .p-divbox{
         width: 60%;
+        color: white;
     }
     .img-divbox{
         width: 40%;
+        border-radius: 50%;
     }
 
     .btn-divbox{
-        width: 100%;
+        width: 50%;
         text-align: center;
+        background-color: black;
+        color: white;
+        /*box-shadow: 4px 1px 5px 4px rgba(192,191,191,0.61);
+-webkit-box-shadow: 4px 1px 5px 4px rgba(192,191,191,0.61);
+-moz-box-shadow: 4px 1px 5px 4px rgba(192,191,191,0.61);*/
+border-radius: 20%;
+        
     }
     
     .carousel-item{
@@ -36,3 +53,4 @@
     }
   }
 
+  
