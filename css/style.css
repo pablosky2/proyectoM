@@ -3,3 +3,84 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.navbar {
+  width: 100%;
+  background-image: url("https://img3.wallspic.com/previews/9/3/0/4/6/164039/164039-banner_de_contraccion_de_la_galaxia-contraccion_nerviosa-banner_web-streaming_de_medios_de_comunicacion-gamer-500x.jpg");
+}
+
+/* Si decides mantener las reglas de 'Feature/contacto': */
+.container-fluid a {
+  color: white;
+}
+
+/* Si decides mantener las reglas de 'dev': */
+.logo {
+  width: 100px;
+}
+.footer {
+  background-color: black;
+  border: 2px solid #8a2be2;
+  padding: 15px;
+
+  .row-footer {
+    .img-footer {
+      width: 60px;
+      filter: drop-shadow(0 0 10px #8a2be2);
+      margin-top: 15px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.5s ease;
+      &:hover {
+        color: #8a2be2;
+      }
+    }
+  }
+
+  #col-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+    gap: 15px;
+  }
+
+  #col-3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+    gap: 15px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .col-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-footer {
+    position: relative;
+    right: 10%;
+  }
+  #col-1 {
+    a {
+      position: relative;
+      right: 1rem;
+    }
+  }
+}
