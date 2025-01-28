@@ -59,6 +59,46 @@
   }
 }
 
+.section {
+  background-color: black;
+  padding: 10px;
+
+  .título-h2 {
+    background-color: black;
+    color: white;
+  }
+
+  .card {
+    border: 1px solid #9d00ff;
+    img {
+      width: auto;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .card-body {
+    background-color: gray;
+    p {
+      color: white;
+    }
+  }
+
+  .card-title {
+    color: white;
+  }
+
+  .btn-card-propio {
+    background-color: black;
+    color: white;
+    &:hover {
+      background-color: orange;
+      color: black;
+    }
+  }
+}
+
+
 @media screen and (min-width: 992px) {
   .col-footer {
     display: flex;
