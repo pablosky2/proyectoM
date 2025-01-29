@@ -80,7 +80,9 @@
   .card-body {
     background-color: gray;
     p {
+      font-size: 1rem;
       color: white;
+      text-align: center;
     }
   }
 
@@ -91,13 +93,13 @@
   .btn-card-propio {
     background-color: black;
     color: white;
+    transition: background-color 0.5s ease;
     &:hover {
       background-color: orange;
       color: black;
     }
   }
 }
-
 
 @media screen and (min-width: 992px) {
   .col-footer {
