@@ -1,9 +1,4 @@
-
-  <!DOCTYPE html>
-
 <!DOCTYPE html>
-<html lang="en">
-
 <html lang="es-AR">
   <head>
     <meta name="author" content="" />
@@ -11,12 +6,6 @@
     <meta name="keywords" content="" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title>pagina principal</title>
-  </head>
-  <body>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,13 +21,6 @@
     />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <style>
-      body{
-         background: linear-gradient(90deg, #1a1a1a, #222, #1a1a1a);
-        box-shadow: 0 4px 8px rgba(0, 255, 255, 0.2);
-        background-color: #0f0f0f;
-        color: white;
-        font-family: "Press Start 2P", cursive;
-      }
       .navbar {
         background: linear-gradient(90deg, #1a1a1a, #222, #1a1a1a);
         box-shadow: 0 4px 8px rgba(0, 255, 255, 0.2);
@@ -76,76 +58,123 @@
         transform: scale(1.1);
         box-shadow: 0 0 10px #00ffff;
       }
-
-      footer{
-        justify-content: space-evenly;
-      }
     </style>
     <title>Página principal</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a href="index.html">
-          <img
-            class="logo"
-            src="https://graphicsfamily.com/wp-content/uploads/edd/2021/02/Gamers-Mascot-Logo-PNG-Transparent.png"
-            alt="Logo"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="./Páginas/sobre-nosotros.html"
-                >Sobre nosotros</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="Páginas/Contacto.html">Contacto</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Iniciar Sesión</a>
-            </li>
-            <li class="nav-item">
-              <button class="btn-gamer">Registrarse</button>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a href="index.html">
+            <img
+              class="logo"
+              src="https://graphicsfamily.com/wp-content/uploads/edd/2021/02/Gamers-Mascot-Logo-PNG-Transparent.png"
+              alt="Logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./Páginas/sobre-nosotros.html"
+                  >Sobre nosotros</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Páginas/Contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Iniciar Sesión</a>
+              </li>
+              <li class="nav-item">
+                <button class="btn-gamer">Registrarse</button>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
 
-    <footer class="footer">
-      <div class="footer-container container text-center">
-        <div class="row">
-          <div class="col col-12 col-lg-4">
-            <ul id="col-1">
-              <li><a href="" target="_blank">Facebook</a></li>
-              <li><a href="" target="_blank">Instagram</a></li>
-              <li><a href="" target="_blank">WhatsApp</a></li>
-            </ul>
-          </div>
-          <div class="col col-footer col-12 col-lg-4">
-            <img class="img-footer" src="./imagenes/gamepad_img.webp" alt="" />
-          </div>
-          <div class="col col-12 col-lg-4">
-            <ul id="col-3">
-              <li><a href="" target="_blank">Bolsa de trabajo</a></li>
-              <li><a href="" target="_blank">Políticas</a></li>
-            </ul>
-          </div>
+    <footer
+      class="footer"
+      style="
+        background-color: #181818;
+        color: white;
+        padding: 30px 0;
+        font-family: 'Press Start 2P', cursive;
+        text-align: center;
+      "
+    >
+      <div>
+        <h3 style="color: #00ffff">Gaming World</h3>
+        <p>&copy; 2025 Gaming World. Todos los derechos reservados.</p>
+        <div>
+          <a
+            href="#"
+            style="
+              color: #0f0;
+              text-decoration: none;
+              margin: 0 15px;
+              font-size: 14px;
+              transition: color 0.3s ease;
+            "
+          >
+            Términos y condiciones
+          </a>
+          <a
+            href="#"
+            style="
+              color: #0f0;
+              text-decoration: none;
+              margin: 0 15px;
+              font-size: 14px;
+              transition: color 0.3s ease;
+            "
+          >
+            Política de privacidad
+          </a>
+          <a
+            href="#"
+            style="
+              color: #0f0;
+              text-decoration: none;
+              margin: 0 15px;
+              font-size: 14px;
+              transition: color 0.3s ease;
+            "
+          >
+            Soporte
+          </a>
+        </div>
+        <div style="margin-top: 20px">
+          <p>¡Síguenos en nuestras redes sociales!</p>
+          <a
+            href="#"
+            style="color: #0f0; margin: 0 10px; transition: color 0.3s ease"
+            >Facebook</a
+          >
+          <a
+            href="#"
+            style="color: #0f0; margin: 0 10px; transition: color 0.3s ease"
+            >Twitter</a
+          >
+          <a
+            href="#"
+            style="color: #0f0; margin: 0 10px; transition: color 0.3s ease"
+            >Instagram</a
+          >
         </div>
       </div>
     </footer>
