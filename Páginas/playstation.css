@@ -17,45 +17,87 @@
 /* Si decides mantener las reglas de 'dev': */
 .logo {
   width: 100px;
-
-}
-
 }
 .footer {
   background-color: black;
   border: 2px solid #8a2be2;
   padding: 15px;
-  img {
-    width: 100px;
+
+  .row-footer {
+    .img-footer {
+      width: 60px;
+      filter: drop-shadow(0 0 10px #8a2be2);
+      margin-top: 15px;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+      transition: color 0.5s ease;
+      &:hover {
+        color: #8a2be2;
+      }
+    }
   }
 
-  ul {
-    list-style: none;
+  #col-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+    gap: 15px;
   }
 
-  a {
+  #col-3 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 27px;
+    gap: 15px;
+  }
+}
+
+.section {
+  background-color: black;
+  padding: 10px;
+
+  .título-h2 {
+    background-color: black;
     color: white;
-    text-decoration: none;
-    transition: color 0.5s ease;
+  }
+
+  .card {
+    border: 1px solid #9d00ff;
+    img {
+      width: auto;
+      height: auto;
+      object-fit: cover;
+    }
+  }
+
+  .card-body {
+    background-color: gray;
+    p {
+      color: white;
+    }
+  }
+
+  .card-title {
+    color: white;
+  }
+
+  .btn-card-propio {
+    background-color: black;
+    color: white;
     &:hover {
-      color: #8a2be2;
+      background-color: orange;
+      color: black;
     }
   }
 }
 
-#col-1 {
-  display: flex;
-  flex-direction: row;
-  margin-top: 27px;
-  gap: 15px;
-}
-
-#col-3 {
-  display: flex;
-  flex-direction: row;
-  margin-top: 27px;
-  gap: 15px;
-}
 
 @media screen and (min-width: 992px) {
   .col-footer {
@@ -82,4 +124,3 @@
     }
   }
 }
-
