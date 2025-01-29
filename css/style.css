@@ -17,6 +17,9 @@
 /* Si decides mantener las reglas de 'dev': */
 .logo {
   width: 100px;
+
+}
+
 }
 .footer {
   background-color: black;
@@ -79,3 +82,4 @@
     }
   }
 }
+
