@@ -91,13 +91,13 @@
   .btn-card-propio {
     background-color: black;
     color: white;
+    transition: background-color 0.5s ease;
     &:hover {
       background-color: orange;
       color: black;
     }
   }
 }
-
 
 @media screen and (min-width: 992px) {
   .col-footer {
