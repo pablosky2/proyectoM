@@ -1,140 +1,97 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Registrarse</title>
-    <!-- Enlace a la fuente Press Start 2P desde Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
-      rel="stylesheet"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Gamer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
-      body {
-        font-family: "Press Start 2P", cursive;
-        background-color: #282828;
-        color: #fff;
-        margin: 0;
-        padding: 20px;
-      }
-      h1 {
-        text-align: center;
-        font-size: 40px;
-      }
-      .form-container {
-        width: 100%;
-        max-width: 500px;
-        margin: 0 auto;
-        background-color: #333;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-      }
-      .form-container label {
-        display: block;
-        margin-bottom: 8px;
-      }
-      .form-container input,
-      .form-container select {
-        width: 100%;
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 1px solid #666;
-        border-radius: 5px;
-        background-color: #444;
-        color: #fff;
-        font-size: 16px;
-      }
-      .form-container button {
-        width: 100%;
-        padding: 12px;
-        background-color: #ff0;
-        border: none;
-        border-radius: 5px;
-        font-size: 18px;
-        cursor: pointer;
-        color: #282828;
-        font-weight: bold;
-      }
-      .form-container button:hover {
-        background-color: #f90;
-      }
-      .form-container a {
-        display: block;
-        text-align: center;
-        margin-top: 20px;
-        color: #0f0;
-      }
-      .form-container a:hover {
-        text-decoration: underline;
-      }
+        body {
+            background-color: #1a1a1a;
+            color: #00ff00;
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 10px;
+            box-sizing: border-box;
+        }
+        input[type="text"], input[type="email"], input[type="password"], input[type="number"], select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #222;
+            border: 1px solid #00ff00;
+            color: #00ff00;
+            box-sizing: border-box;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        button {
+            background-color: #00ff00;
+            color: #1a1a1a;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        button:hover {
+            background-color: #00cc00;
+        }
+        a{
+        color: #00cc00;
+        }
     </style>
-  </head>
-  <body>
-    <h1>Unete a la mejor página gaming</h1>
-    <div class="form-container">
-      <form action="/submit" method="post">
-        <label for="fullname">Nombre de Usuario</label>
-        <input
-          type="text"
-          id="fullname"
-          name="fullname"
-          required
-          maxlength="20"
-          pattern="[A-Za-z1-0]"
-          minlength="8"
-        />
-        <label for="password">Contraseña</label>
-        <input
-          type="password"
-          id="password"
-          required
-          maxlength="20"
-          minlength="8"
-          pattern="[A-Za-z1-0]"
-        />
-        <label for="password">Repetir contraseña</label>
-        <input
-          type="password"
-          id="password"
-          required
-          maxlength="20"
-          minlength="8"
-          pattern="[A-Za-z1-0]"
-        />
-        <label for="age">Edad:</label>
-        <input type="number" id="age" name="age" required />
-        <label for="email">Correo electrónico:</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          required
-          placeholder="Rodo18@gmail.com"
-          maxlength="20"
-          minlength="8"
-        />
-        <label for="platform">Plataforma principal de juego:</label>
-        <select id="platform" name="platform" required>
-          <option value="PC">PC</option>
-          <option value="PlayStation">PlayStation</option>
-          <option value="Xbox">Xbox</option>
-          <option value="Nintendo Switch">Nintendo Switch</option>
-          <option value="Móvil">Móvil (Android/iOS)</option>
-          <option value="Otra">Otra</option>
-        </select>
-        <label for="interestedIn"
-          >¿Estás interesado en torneos o eventos especiales?</label
-        >
-        <select id="interestedIn" name="interestedIn" required>
-          <option value="Yes">Sí</option>
-          <option value="No">No</option>
-        </select>
-        <label for="howYouFoundUs">¿Cómo supiste de nosotros?</label>
-        <input type="text" id="howYouFoundUs" name="howYouFoundUs" />
-        <button type="submit">Registrar</button>
-      </form>
-      <a href="error404.html">¿Ya tienes una cuenta?</a>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario Gamer</h1>
+        <form action="#" method="POST">
+            <label for="username">Nombre de Usuario</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Repetir contraseña</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <label for="age">Edad</label>
+            <input type="number" id="age" name="age" required>
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" value="Rodo18@gmail.com" required>
+
+            <label for="platform">Plataforma principal de juego</label>
+            <select id="platform" name="platform">
+                <option value="PC">PC</option>
+                <option value="PS5">PS5</option>
+                <option value="Xbox">Xbox</option>
+                <option value="Switch">Switch</option>
+            </select>
+
+            <label for="tournaments">¿Estás interesado en torneos o eventos especiales?</label>
+            <select id="tournaments" name="tournaments">
+                <option value="Sí">Sí</option>
+                <option value="No">No</option>
+            </select>
+
+            <label for="referral">¿Cómo supiste de nosotros?</label>
+            <input type="text" id="referral" name="referral" value="Registrar" required>
+
+            <a href="Inicio-sesion.html">¿Ya tienes una cuenta?</a>
+            <button type="submit">Registrar</button>
+        </form>
     </div>
-  </body>
+</body>
 </html>
