@@ -38,3 +38,6 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.logo {
+  width: 100px;
+}
