@@ -86,11 +86,11 @@ button:hover {
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
      text-align: center;
      background-image: url(/assets/bglogin.jpeg);
-     height: 80vh;
+     height: 100vh;
      
  }
  .form {
-     margin-top: 10%;
+     margin-top: 5%;
      display: flex;
      flex-direction: column; /* Asegura que los elementos estén en columna */
      align-items: center;
@@ -100,7 +100,7 @@ button:hover {
  
  .inputlogin {
      display: block;
-     width: 30%; /* Asegura que ocupen todo el ancho del contenedor */
+     width: 25%; /* Asegura que ocupen todo el ancho del contenedor */
      padding: 15px;
      margin: 5px 0; /* Reduce un poco el margen */
      border: 1px solid #ccc;
@@ -110,7 +110,7 @@ button:hover {
  }
  
  .btningresa {
-     width:20%;
+     width:15%;
      padding: 15px;
      border: none;
      background-color: #00ffff;
@@ -164,7 +164,7 @@ button:hover {
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
      text-align: center;
      background-image: url(/assets/bglogin.jpeg);
-     height: 50vh;
+     height: 100vh;
      
  }
  .form {
@@ -242,7 +242,7 @@ button:hover {
          
      }
      .form {
-         margin-top: 10%;
+         margin-top: 5%;
          display: flex;
          flex-direction: column; /* Asegura que los elementos estén en columna */
          align-items: center;
@@ -252,7 +252,7 @@ button:hover {
      
      .inputlogin {
          display: block;
-         width: 60%; /* Asegura que ocupen todo el ancho del contenedor */
+         width: 40%; /* Asegura que ocupen todo el ancho del contenedor */
          padding: 20px;
          margin: 5px 0; /* Reduce un poco el margen */
          border: 1px solid #ccc;
@@ -262,7 +262,7 @@ button:hover {
      }
      
      .btningresa {
-         width:35%;
+         width:20%;
          padding: 20px;
          border: none;
          background-color:#00ffff;
@@ -289,7 +289,7 @@ button:hover {
          }
      }
      .old-login{
-         font-size: 20px;
+         font-size: 15px;
          display: block;
          color: white;
         font-family: "Press Start 2P", serif;
