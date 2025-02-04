@@ -1,0 +1,335 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.carousel-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.containerSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    margin-top: 2%;
+}
+
+.containerSection section {
+    display: flex;
+    width: 700px;
+    height: 250px;
+    overflow: hidden; 
+}
+
+.containerSection section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 1s ease;
+}
+
+.containerSection section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+body {
+    background-image: url(/imagenes/bg-4.jpeg);
+}
+@media (max-width: 1600px) {
+    .section-div {
+        width: 50%;
+        display: flex;
+        float: left;
+    }
+    .carousel{
+        display: none;
+    }
+
+    .h2-divbox {
+        font-size: 40px;
+        text-align: center;
+        color: #00ffff !important;
+        text-shadow: 1px 1px 28px rgba(0, 0, 0, 0.6);
+        margin-top: 5%;
+        font-family: "Press Start 2P", serif;
+    }
+
+    .div-box-two {
+        display: flex;
+        width: 100%;
+    }
+
+    .p-divbox {
+        width: 50%;
+        color: white;
+        padding: 20px;
+        font-size: 20px;
+        border-left: #00ffff solid 2px;
+    }
+
+    .img-divbox {
+        width: 30%;
+        border-radius: 50%;
+    }
+
+    .btn-divbox {
+        display: flex;
+        margin-bottom: 10%;
+        width: 50%; /* Asegura que el botón no quede demasiado pequeño */
+        font-size: 20px; /* Ajusta el tamaño de la fuente */
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: #00ffff 5px solid;
+        border-radius: 20%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .section-div {
+        width: 50%;
+        display: flex;
+        float: left;
+    }
+  
+   
+    .h2-divbox {
+        font-size: 35px;
+        text-align: center;
+        color: #00ffff !important;
+        text-shadow: 1px 1px 28px rgba(0, 0, 0, 0.6);
+        margin-top: 5%;
+        font-family: "Press Start 2P", serif;
+    }
+
+    .div-box-two {
+        display: flex;
+        width: 100%;
+    }
+
+    .p-divbox {
+        width: 50%;
+        color: white;
+        padding: 15px;
+        font-size: 15px;
+        border-left: #00ffff solid 2px;
+    }
+
+    .img-divbox {
+        width: 30%;
+        border-radius: 50%;
+    }
+
+    .btn-divbox {
+        display: flex;
+        margin-bottom: 10%;
+        width: 50%; /* Asegura que el botón no quede demasiado pequeño */
+        font-size: 20px; /* Ajusta el tamaño de la fuente */
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: #00ffff 5px solid;
+        border-radius: 20%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:900px) { 
+    .section-div {
+        border-bottom: #00ffff 1px solid;
+        width: 100%;
+    }
+
+    .carousel{
+        display: block;
+    }
+    .containerSection{
+        display: none;
+    }
+    .h2-divbox {
+        font-size: 40px;
+        text-align: center;
+        color: #00ffff !important;
+        text-shadow: 1px 1px 28px rgba(0, 0, 0, 0.6);
+        margin-top: 5%;
+        font-family: "Press Start 2P", serif;
+    }
+
+    .div-box-two {
+        display: flex;
+        width: 100%;
+    }
+
+    .p-divbox {
+        width: 50%;
+        color: white;
+        padding: 30px;
+        font-size: 30px;
+    }
+
+    .img-divbox {
+        width: 40%;
+        border-radius: 50%;
+    }
+
+    .btn-divbox {
+        display: flex;
+        margin-bottom: 10%;
+        width: 60%; /* Asegura que el botón no se quede muy pequeño */
+        font-size: 25px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: #00ffff 5px solid;
+        border-radius: 20%;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .carousel-item {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .section-div {
+        border-bottom: #00ffff 1px solid;
+        width: 100%;
+    }
+    .containerSection{
+        display: none;
+    }
+    .carousel{
+        display: block;
+    }
+
+    .h2-divbox {
+        font-size: 30px;
+        text-align: center;
+        color: #00ffff !important;
+        text-shadow: 1px 1px 28px rgba(0, 0, 0, 0.6);
+        margin-top: 5%;
+        font-family: "Press Start 2P", serif;
+    }
+
+    .div-box-two {
+        display: block; /* Cambia de flex a block para apilar elementos */
+        width: 100%;
+    }
+
+    .p-divbox {
+        width: 100%; /* Asegura que el contenido ocupe todo el espacio */
+        color: white;
+        padding: 20px;
+        font-size: 25px;
+    }
+
+    .img-divbox {
+        width: 60%;
+        height: 300px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: 0 auto;
+    }
+
+    .btn-divbox {
+        display: block;
+        width: 60%; /* Botón más grande en pantallas pequeñas */
+        font-size: 20px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: #00ffff 3px solid;
+        border-radius: 20%;
+        justify-content: center;
+        margin: 10% auto;
+    }
+
+    .carousel-item {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 400px) {
+    .section-div {
+        border-bottom: #00ffff 1px solid;
+        width:100%
+    }
+    .containerSection{
+        display: none;
+    }
+    
+
+    .h2-divbox {
+        font-size: 25px;
+        text-align: center;
+        color: #00ffff !important;
+        text-shadow: 1px 1px 28px rgba(0, 0, 0, 0.6);
+        margin-top: 5%;
+        font-family: "Press Start 2P", serif;
+    }
+
+    .div-box-two {
+        display: block; /* Cambia de flex a block para apilar elementos */
+        width: 100%;
+    }
+
+    .p-divbox {
+        width: 100%; /* Asegura que el contenido ocupe todo el espacio */
+        color: white;
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .img-divbox {
+        width: 50%;
+        height: 200px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        margin: 0 auto;
+    }
+    
+
+    .btn-divbox {
+        display: block;
+        width: 60%; /* Botón más grande en pantallas pequeñas */
+        font-size: 20px;
+        text-align: center;
+        background-color: black;
+        color: white;
+        border: #00ffff 3px solid;
+        border-radius: 20%;
+        justify-content: center;
+        margin: 10% auto;
+    }
+
+    .carousel-item {
+        width: 100%;
+        height: auto;
+    }
+    .carousel{
+        display: block;
+    }
+}
+
+
