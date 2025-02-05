@@ -54,12 +54,61 @@ button.btn.btn-primary{
     justify-content:center;
     align-items: flex-start;
 }
+@media (max-width: 1600px) {
+    .div-box-comentario {
+        width: calc(100% / 3 - 20px);
+    }
+    div.modal-content{
+        opacity: 0.9;
+        background: #c31432;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+      }
+      
+      div.modal-header{
+        text-align: center;
+        color: white;
+      }
+      .input-modal{
+        text-align: center;
+        background: #c31432;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    
+      }
+      .input-modal::placeholder { color:white; }
+    
+    
+}
 
 /* 3 columnas en pantallas de 1050px a 900px */
 @media (max-width: 1200px) {
     .div-box-comentario {
         width: calc(100% / 3 - 20px);
     }
+    div.modal-content{
+        opacity: 0.9;
+        background: #c31432;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+      }
+      
+      div.modal-header{
+        text-align: center;
+        color: white;
+      }
+      .input-modal{
+        text-align: center;
+        background: #c31432;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    
+      }
+      .input-modal::placeholder { color:white; }
     
     
 }
@@ -69,6 +118,27 @@ button.btn.btn-primary{
     .div-box-comentario {
         width: calc(100% / 2 - 20px);
     }
+    div.modal-content{
+        opacity: 0.9;
+        background: #c31432;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+      }
+      
+      div.modal-header{
+        text-align: center;
+        color: white;
+      }
+      .input-modal{
+        text-align: center;
+        background: #c31432;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    
+      }
+      .input-modal::placeholder { color:white; }
 }
 
 /* 1 columna en pantallas de 600px o menos */
@@ -77,19 +147,24 @@ button.btn.btn-primary{
         width: 100%;
     }
   div.modal-content{
+    opacity: 0.9;
     background: #c31432;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
   }
+  
   div.modal-header{
+    text-align: center;
     color: white;
   }
   .input-modal{
+    text-align: center;
     background: #c31432;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 
   }
+  .input-modal::placeholder { color:white; }
 }
