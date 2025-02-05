@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
      
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/landing-page.css">
-    <link rel="stylesheet" href="./css/contacto.css">
+    <link rel="stylesheet" href="/css/comentarios.css">
     <title>Página principal</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -99,88 +98,129 @@
            </div>
          </div>
        </nav>
-       <div class="containerSection">
-        <section>
-            <img src="./imagenes/foto1.jpeg" alt="">
-            <img src="./imagenes/1.jpeg" alt="">
-            <img src="./imagenes/foto3.jpeg" alt="">
-            <img src="./imagenes/foto4.jpeg" alt="">
-            <img src="./imagenes/foto2.jpeg" alt="">
-            <img src="./imagenes/4.jpeg" alt="">
-            
-            
-            
-        </section>
-        
-    </div>
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/imagenes/fondo1.jpeg" class="img-carrousel d-block w-100 h-50" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/imagenes/fondo2.jpeg" class=" img-carrousel d-block w-100  h-50" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/imagenes/fondo3.jpeg" class=" img-carrousel d-block w-100 h-50" alt="...">
-          </div>
+      <div class="container-comentarios">
+        <h2 class="h2-comentarios">
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    !DEJANOS TU COMENTARIO SOBRE EL BLOG!
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Dejanos tu opinion</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="modal-body">
+          <input class="input-modal" type="text" placeholder="Usuario">
+          <input class="input-modal" type="texarea" placeholder="Tu comentario aqui!">
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Enviar</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
       </div>
-      <div class="container-cards">
-        <section class="section-div"> 
-        <div class="div-box">
-            <h2 class="h2-divbox">Pc Games</h2>
-            <div class="div-box-two">
-                <p class="p-divbox">
-                  ¡Despierta tu espíritu gamer! Sumérgete en increíbles aventuras, reta a tus amigos y conquista mundos virtuales. ¡La diversión te espera en cada partida! 🎮
-                </p>
-                <img class="img-divbox" src="/imagenes/pc.jpeg" alt="">
+    </div>
+  </div>
+        </h2>
+        <div class="container-card-comentarios">
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Jose</h5>
+                      <p class="card-text">Some and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
             </div>
-            <a href="/Páginas/PC.html" class="btn-divbox">Ingresar</a>
-        </div> 
-      </section>
-      <section class="section-div"> 
-        <div class="div-box">
-            <h2 class="h2-divbox">PlaysTation</h2>
-            <div class="div-box-two">
-                <p class="p-divbox">¡Es hora de jugar en grande! Conquista nuevos mundos, compite con amigos y disfruta de la experiencia única que solo Xbox puede ofrecer. ¡Diversión sin límites! 🎮
-                </p>
-                <img class="img-divbox" src="/imagenes/Playstation.jpeg" alt="">
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pepe</h5>
+                      <p class="card-text">Some  and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
             </div>
-            <a href="/Páginas/playstation.html" class="btn-divbox">Ingresar</a>
-        </div> 
-      </section>
-      <section class="section-div"> 
-        <div class="div-box">
-            <h2 class="h2-divbox">MOBILE</h2>
-            <div class="div-box-two">
-                <p class="p-divbox">
-                  ¡Lleva la diversión en tu bolsillo! Disfruta de emocionantes aventuras, retos y acción en cualquier momento y lugar. ¡Los juegos móviles te esperan para desafiarte! 📱
-                </p>
-                <img class="img-divbox" src="/imagenes/celu.jpeg" alt="">
+
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Goku</h5>
+                      <p class="card-text">Some and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
             </div>
-            <a href="/Páginas/Moviles.html" class="btn-divbox">Ingresar</a>
-        </div> 
-      </section>
-      <section class="section-div"> 
-        <div class="div-box">
-            <h2 class="h2-divbox">X BOXS</h2>
-            <div class="div-box-two">
-                <p class="p-divbox">
-                  ¡La experiencia de juego más inmersiva te espera en PC! Gráficos impresionantes, mundos vastos y velocidad sin límites. ¡Es hora de llevar tus partidas al siguiente nivel! 💻 </p>
-                <img class="img-divbox" src="/imagenes/xboxs.jpeg" alt="">
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Gohan</h5>
+                      <p class="card-text">Some  and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
             </div>
-            <a href="/Páginas/xboxs.html" class="btn-divbox">Ingresar</a>
-        </div> 
-      </section>
+
+
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pikachu</h5>
+                      <p class="card-text">Some and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ank</h5>
+                      <p class="card-text">Some and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Rocket</h5>
+                      <p class="card-text">Some and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cohete</h5>
+                      <p class="card-text">Some and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
       </div>
       
       <footer
