@@ -2,7 +2,10 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+.btn-gamer{
+  text-decoration: none;
 
+}
 .carousel-item {
   width: 100%;
   height: auto;
