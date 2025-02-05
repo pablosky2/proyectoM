@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/comentarios.css">
+    <title>Página principal</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <style>
+     
+         
+   .navbar {
+           background: linear-gradient(90deg, #1a1a1a, #222, #1a1a1a);
+           box-shadow: 0 4px 8px rgba(0, 255, 255, 0.2);
+           font-family: 'Press Start 2P', cursive;
+           background-color: #0f0f0f;
+           color: white;
+         }
+         .nav-link {
+           color: #00ffff !important;
+           transition: all 0.3s ease-in-out;
+         }
+         .nav-link:hover {
+           text-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff;
+           color: #ffffff !important;
+         }
+         .logo {
+           height: 60px;
+           filter: drop-shadow(0 0 6px #00ffff);
+         }
+         .navbar-toggler-icon {
+           background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" fill="%2300ffff" viewBox="0 0 16 16"%3E%3Cpath fill-rule="evenodd" d="M1.5 12a.5.5 0 010-1h13a.5.5 0 010 1h-13zm0-5a.5.5 0 010-1h13a.5.5 0 010 1h-13zm0-5a.5.5 0 010-1h13a.5.5 0 010 1h-13z"/%3E%3C/svg%3E');
+         }
+         .btn-gamer {
+           background: linear-gradient(90deg, #00ffff, #1a1a1a);
+           border: none;
+           padding: 8px 8px;
+           margin-left: 10%;
+           color: white;
+           border-radius: 8px;
+           transition: all 0.3s ease-in-out;
+           text-transform: uppercase;
+         }
+         .btn-gamer:hover {
+           background: #00ffff;
+           color: black;
+           transform: scale(1.1);
+           box-shadow: 0 0 10px #00ffff;
+         }
+       </style>
+       <title>Página principal</title>
+     </head>
+     <body>
+       <nav class="navbar navbar-expand-lg">
+         <div class="container-fluid">
+           <a href="index.html">
+             <img
+               class="logo"
+               src="https://graphicsfamily.com/wp-content/uploads/edd/2021/02/Gamers-Mascot-Logo-PNG-Transparent.png"
+               alt="Logo"
+             />
+           </a>
+           <button
+             class="navbar-toggler"
+             type="button"
+             data-bs-toggle="collapse"
+             data-bs-target="#navbarSupportedContent"
+             aria-controls="navbarSupportedContent"
+             aria-expanded="false"
+             aria-label="Toggle navigation"
+           >
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                 <a class="nav-link" href="/Páginas/sobre-nosotros.html">Sobre nosotros</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="/Páginas/Contacto.html">Contacto</a>
+               </li>
+             </ul>
+             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                 <a class="nav-link" href="/Páginas/login.html">Iniciar Sesión</a>
+               </li>
+               <li class="nav-item">
+                 <a href="/Páginas/registro.html" class="btn-gamer">Registrarse</a>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </nav>
+      <div class="container-comentarios">
+        <h2 class="h2-comentarios">
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    !DEJANOS TU COMENTARIO SOBRE EL BLOG!
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Dejanos tu opinion</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <input class="input-modal" type="text" placeholder="Usuario">
+          <input class="input-modal" type="texarea" placeholder="Tu comentario aqui!">
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-danger">Enviar</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        </h2>
+        <div class="container-card-comentarios">
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Jose</h5>
+                      <p class="card-text">Some and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pepe</h5>
+                      <p class="card-text">Some  and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Goku</h5>
+                      <p class="card-text">Some and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Gohan</h5>
+                      <p class="card-text">Some  and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/4.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Pikachu</h5>
+                      <p class="card-text">Some and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Ank</h5>
+                      <p class="card-text">Some and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Rocket</h5>
+                      <p class="card-text">Some and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="div-box-comentario">
+                <div class="card" style="width: 13rem;">
+                    <img src="/imagenes/1.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cohete</h5>
+                      <p class="card-text">Some and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">👍</a>
+                      <a href="#" class="btn btn-primary">👎</a>
+                    </div>
+                  </div>
+            </div>
+            
+        </div>
+      </div>
+      
+      <footer
+      class="footer"
+      style="
+        background-color: #181818;
+        color: white;
+        padding: 30px 0;
+        font-family: 'Press Start 2P', cursive;
+        text-align: center;
+      "
+    >
+      <div>
+        <h3 style="color: #00FFFF">Gaming World</h3>
+        <p>&copy; 2025 Gaming World. Todos los derechos reservados.</p>
+        <div>
+          <a
+            href="#"
+            style="
+              color: #0f0;
+              text-decoration: none;
+              margin: 0 15px;
+              font-size: 14px;
+              transition: color 0.3s ease;
+            "
+          >
+            Términos y condiciones
+          </a>
+          <a
+            href="#"
+            style="
+              color: #0f0;
+              text-decoration: none;
+              margin: 0 15px;
+              font-size: 14px;
+              transition: color 0.3s ease;
+            "
+          >
+            Política de privacidad
+          </a>
+          <a
+            href="#"
+            style="
+              color: #0f0;
+              text-decoration: none;
+              margin: 0 15px;
+              font-size: 14px;
+              transition: color 0.3s ease;
+            "
+          >
+            Soporte
+          </a>
+        </div>
+        <div style="margin-top: 20px">
+          <p>¡Síguenos en nuestras redes sociales!</p>
+          <a
+            href="#"
+            style="color: #0f0; margin: 0 10px; transition: color 0.3s ease"
+            >Facebook</a
+          >
+          <a
+            href="#"
+            style="color: #0f0; margin: 0 10px; transition: color 0.3s ease"
+            >Twitter</a
+          >
+          <a
+            href="#"
+            style="color: #0f0; margin: 0 10px; transition: color 0.3s ease"
+            >Instagram</a
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
