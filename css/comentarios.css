@@ -10,7 +10,12 @@ body {
     background-image: url(/imagenes/bglogin.jpeg);
 }
 
-
+.nav-item{
+    border: 1px solid #00ffff;
+    box-shadow: 0 2px 5px 0px #00ffff;
+    border-radius: 9%;
+    font-size: 20px;
+}
 .card {
     max-width: 100%;
     width: 100%; 
