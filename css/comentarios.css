@@ -3,33 +3,54 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    background-image: url(/imagenes/fondo1.jpeg);
+    background-image: url(/imagenes/bglogin.jpeg);
     font-family: "Press Start 2P", serif;
 }
 .modal{
     background-image: url(/imagenes/bglogin.jpeg);
 }
 
+.nav-item{
+    border: 1px solid #00ffff;
+    box-shadow: 0 2px 5px 0px #00ffff;
+    border-radius: 9%;
+    font-size: 20px;
+}
 .card {
     max-width: 100%;
     width: 100%; 
     
+    
 }
-
 button.btn.btn-primary{
-    background-color: #00ffff;
-    opacity: 0.9;
+    background: #1D4350;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+    padding: 10px;
+    font-family: "Press Start 2P", serif;
     margin-top: 3%;
     margin-bottom: 3%;
-    font-size: 25px;
-    color: black;
+    font-size: 15px;
+    color:white;
     font:bold;
+
 }
-
-
+    h5.card-title{
+        color: white;
+        font-family: "Press Start 2P", serif;
+        font-size: 15px;
+    }
+ p.card-text{
+    color: white;
+    font-family: "Press Start 2P", serif;
+    font-size: 10px;
+ }
 .card-body{
-    background-color:#00ffff;
-    opacity: 0.9;
+    
+    background: #200122;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .h2-comentarios{
     text-align: center;

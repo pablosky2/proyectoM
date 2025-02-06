@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/css/landing-page.css">
     <link rel="stylesheet" href="./css/contacto.css">
     <title>Página principal</title>
-    <link rel="shortcut icon" href="https://graphicsfamily.com/wp-content/uploads/edd/2021/02/Gamers-Mascot-Logo-PNG-Transparent.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,16 +24,22 @@
            background-color: #0f0f0f;
            color: white;
          }
+         .nav-item{
+          border: 1px solid #00ffff;
+          box-shadow: 0 2px 5px 0px #00ffff;
+          border-radius: 9%;
+}
          .nav-link {
            color: #00ffff !important;
            transition: all 0.3s ease-in-out;
+           
          }
          .nav-link:hover {
            text-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff;
            color: #ffffff !important;
          }
          .logo {
-           width: 100px;
+           width: 80px;
            filter: drop-shadow(0 0 6px #00ffff);
          }
          .navbar-toggler-icon {
@@ -81,19 +87,22 @@
            </button>
            <div class="collapse navbar-collapse" id="navbarSupportedContent">
              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/Páginas/Contacto.html">Contacto</a>
+              </li>
                <li class="nav-item">
                  <a class="nav-link" href="/Páginas/sobre-nosotros.html">Sobre nosotros</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="/Páginas/Contacto.html">Contacto</a>
-               </li>
+                <a class="nav-link" href="/Páginas/comentarios.html">Galeria</a>
+              </li>
              </ul>
              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                <li class="nav-item">
                  <a class="nav-link" href="/Páginas/login.html">Iniciar Sesión</a>
                </li>
                <li class="nav-item">
-                 <a href="/Páginas/registro.html" class="btn-gamer">Registrarse</a>
+                 <a href="/Páginas/registro.html" class="nav-link">Registrarse</a>
                </li>
              </ul>
            </div>
@@ -104,12 +113,9 @@
             <img src="./imagenes/foto1.jpeg" alt="">
             <img src="./imagenes/1.jpeg" alt="">
             <img src="./imagenes/foto3.jpeg" alt="">
-            <img src="./imagenes/foto4.jpeg" alt="">
+            <img src="./imagenes/img9.jpeg" alt="">
             <img src="./imagenes/foto2.jpeg" alt="">
             <img src="./imagenes/4.jpeg" alt="">
-            
-            
-            
         </section>
         
     </div>
@@ -180,28 +186,29 @@
       </section>
       <section class="section-div"> 
         <div class="div-box">
-            <h2 class="h2-divbox">MOBILE</h2>
+            <h2 class="h2-divbox">X BOXS</h2>
             <div class="div-box-two">
                 <p class="p-divbox">
                   ¡Lleva la diversión en tu bolsillo! Disfruta de emocionantes aventuras, retos y acción en cualquier momento y lugar. ¡Los juegos móviles te esperan para desafiarte! 📱
                 </p>
-                <img class="img-divbox" src="/imagenes/celu.jpeg" alt="">
-            </div>
-            <a href="/Páginas/Moviles.html" class="btn-divbox">Ingresar</a>
-        </div> 
-      </section>
-      <section class="section-div"> 
-        <div class="div-box">
-            <h2 class="h2-divbox">X BOXS</h2>
-            <div class="div-box-two">
-                <p class="p-divbox">
-                  ¡La experiencia de juego más inmersiva te espera en PC! Gráficos impresionantes, mundos vastos y velocidad sin límites. ¡Es hora de llevar tus partidas al siguiente nivel! 💻 </p>
                 <img class="img-divbox" src="/imagenes/xboxs.jpeg" alt="">
             </div>
             <a href="/Páginas/xboxs.html" class="btn-divbox">Ingresar</a>
         </div> 
       </section>
+      <section class="section-div"> 
+        <div class="div-box">
+            <h2 class="h2-divbox">Mobile</h2>
+            <div class="div-box-two">
+                <p class="p-divbox">
+                  ¡La experiencia de juego más inmersiva te espera en PC! Gráficos impresionantes, mundos vastos y velocidad sin límites. ¡Es hora de llevar tus partidas al siguiente nivel! 💻 </p>
+                <img class="img-divbox" src="/imagenes/celu.jpeg" alt="">
+            </div>
+            <a href="/Páginas/Error-404.html" class="btn-divbox">Ingresar</a>
+        </div> 
+      </section>
       </div>
+        </div>
       
       <footer
       class="footer"
@@ -214,11 +221,11 @@
       "
     >
       <div>
-        <h3 style="color: #00FFFF">Gaming World</h3>
+        <h3 style="color: #00ffff">Gaming World</h3>
         <p>&copy; 2025 Gaming World. Todos los derechos reservados.</p>
         <div>
           <a
-            href="#"
+            href="/Páginas/Error-404.html"
             style="
               color: #0f0;
               text-decoration: none;
@@ -230,7 +237,7 @@
             Términos y condiciones
           </a>
           <a
-            href="#"
+            href="/Páginas/Error-404.html"
             style="
               color: #0f0;
               text-decoration: none;
@@ -242,7 +249,7 @@
             Política de privacidad
           </a>
           <a
-            href="#"
+            href="/Páginas/Error-404.html"
             style="
               color: #0f0;
               text-decoration: none;
@@ -257,17 +264,17 @@
         <div style="margin-top: 20px">
           <p>¡Síguenos en nuestras redes sociales!</p>
           <a
-            href="#"
+            href="/Páginas/Error-404.html"
             style="color: #0f0; margin: 0 10px; transition: color 0.3s ease"
             >Facebook</a
           >
           <a
-            href="#"
+            href="/Páginas/Error-404.html"
             style="color: #0f0; margin: 0 10px; transition: color 0.3s ease"
             >Twitter</a
           >
           <a
-            href="#"
+            href="/Páginas/Error-404.html"
             style="color: #0f0; margin: 0 10px; transition: color 0.3s ease"
             >Instagram</a
           >

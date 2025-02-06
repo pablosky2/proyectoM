@@ -13,7 +13,7 @@
   border-radius: 10px;
 }
 .contacto-section h2, .contacto-section h5 {
-  font-family: 'Press Start 2P', cursive; /* Fuente estilo gaming */
+  font-family: 'Press Start 2P', cursive; 
 }
 .contacto-section .bi {
   transition: transform 0.3s ease;
@@ -22,7 +22,7 @@
   transform: scale(1.2);
 }
 
-/* From Uiverse.io by nima-mollazadeh */ 
+
 .button {
   position: relative;
   text-decoration: none;
