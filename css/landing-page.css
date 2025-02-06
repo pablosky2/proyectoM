@@ -39,7 +39,7 @@
   cursor: crosshair;
   width: 300px;
   opacity: 1;
-  filter: contrast(120%);
+  filter: contrast(100%);
 }
 
 body {
