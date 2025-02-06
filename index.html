@@ -24,16 +24,22 @@
            background-color: #0f0f0f;
            color: white;
          }
+         .nav-item{
+          border: 1px solid #00ffff;
+          box-shadow: 0 2px 5px 0px #00ffff;
+          border-radius: 9%;
+}
          .nav-link {
            color: #00ffff !important;
            transition: all 0.3s ease-in-out;
+           
          }
          .nav-link:hover {
            text-shadow: 0 0 8px #00ffff, 0 0 16px #00ffff;
            color: #ffffff !important;
          }
          .logo {
-           width: 100px;
+           width: 80px;
            filter: drop-shadow(0 0 6px #00ffff);
          }
          .navbar-toggler-icon {
@@ -81,19 +87,22 @@
            </button>
            <div class="collapse navbar-collapse" id="navbarSupportedContent">
              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/Páginas/Contacto.html">Contacto</a>
+              </li>
                <li class="nav-item">
                  <a class="nav-link" href="/Páginas/sobre-nosotros.html">Sobre nosotros</a>
                </li>
                <li class="nav-item">
-                 <a class="nav-link" href="/Páginas/Contacto.html">Contacto</a>
-               </li>
+                <a class="nav-link" href="/Páginas/comentarios.html">Galeria</a>
+              </li>
              </ul>
              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                <li class="nav-item">
                  <a class="nav-link" href="/Páginas/login.html">Iniciar Sesión</a>
                </li>
                <li class="nav-item">
-                 <a href="/Páginas/registro.html" class="btn-gamer">Registrarse</a>
+                 <a href="/Páginas/registro.html" class="nav-link">Registrarse</a>
                </li>
              </ul>
            </div>

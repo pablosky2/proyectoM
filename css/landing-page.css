@@ -6,6 +6,11 @@
   text-decoration: none;
 
 }
+.nav-item{
+  border: 1px solid #00ffff;
+  box-shadow: 0 2px 5px 0px #00ffff;
+  border-radius: 9%;
+}
 .carousel-item {
   width: 100%;
   height: auto;
